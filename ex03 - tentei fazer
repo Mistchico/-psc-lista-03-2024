@@ -1,0 +1,25 @@
+package ex03;
+
+import java.util.Scanner;
+
+public class ex03q3 {
+    
+      public static void main(String [] Args){
+        
+ Scanner input = new Scanner(System.in);
+ 
+string a;
+string b;
+
+
+a = input.next();
+ if (a == 0) {
+       
+                System.out.println("O numero gerado é par");
+                }
+        
+       if (b == 0) {
+            System.out.println("\nO numero gerado é impar");
+        }
+      }
+}
